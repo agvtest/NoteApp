@@ -16,5 +16,5 @@ Please focus on the following aspects when reviewing:
 #   - "manual": Code review is triggered when a user comments with /review (default)
 #   - "auto": Code review is triggered automatically when a PR is opened
 #   - "disabled": Code review is disabled
-code_review_trigger = "manual"
+code_review_trigger = "auto"
 

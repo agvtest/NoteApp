@@ -1,0 +1,20 @@
+# Example configuration file for TS Copilot
+# Place this file as `.ts_copilot.toml` in the root of your repository
+
+# Custom prompt to be used for PR reviews
+# This prompt will be used by the AI agent when reviewing pull requests
+prompt = """
+Please focus on the following aspects when reviewing:
+- Code quality and maintainability
+- Security vulnerabilities
+- Performance considerations
+- Best practices for our tech stack
+"""
+
+# Code review trigger mode
+# Options:
+#   - "manual": Code review is triggered when a user comments with /review (default)
+#   - "auto": Code review is triggered automatically when a PR is opened
+#   - "disabled": Code review is disabled
+code_review_trigger = "manual"
+
